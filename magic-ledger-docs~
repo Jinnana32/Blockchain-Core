@@ -1,0 +1,21 @@
+Magic ledger API:
+
+    (Dummy)
+    --------------------------------
+    GET     /createDummy
+
+    (Core)
+    --------------------------------
+    GET     /blocks
+    GET     /blocks/index/:index
+    GET     /blocks/hash/:hash
+    POST    /transaction
+                > :sender
+                > :recipient
+                > :amount
+
+    (Mining)
+    --------------------------------
+    GET     /mine-blocks/:minerAddress
+    POST    /submit-block
+                > :
